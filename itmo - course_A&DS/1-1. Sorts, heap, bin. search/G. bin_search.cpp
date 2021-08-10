@@ -25,8 +25,7 @@ inline int nxt() {
     return x;
 }
  
-int main() { 
- 
+int main() {
     int n = nxt(), x = nxt(), y = nxt();
     
     auto f = [&](int md) {
